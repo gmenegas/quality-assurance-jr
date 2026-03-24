@@ -55,10 +55,10 @@ Cada objeto da resposta deve conter os campos (formato de array):
 
 | Campo     | Tipo esperado |
 |-----------|---------------|
-| id        |   number      |
-| title     |   string      |
-| dueDate   |   string      |
-| completed |   boolean     |
+| id        |    number     |
+| title     |    string     |
+| dueDate   |    string     |
+| completed |    boolean    |
 
 ---
 
