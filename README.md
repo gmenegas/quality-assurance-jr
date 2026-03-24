@@ -1,6 +1,4 @@
-Portfólio de QA Jr com testes manuais e de API
-#  quality-assurance-jr
-Portfólio de QA Jr com testes manuais e de API
+#  Teste-Fake-REST-API
 
 ---
 
@@ -28,6 +26,12 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de tar
 
 ---
 
+## Passo a Passo
+- Clonar o projeto
+- Importar os arquivos "Base URL.postman_environment.json" e "Validação API.postman_collection.json"
+
+---
+
 ## Validações Implementadas
 - Validação de Resposta
 - Status code deve ser 200
@@ -38,7 +42,7 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de tar
 
 ## Validação de Estrutura
 
-Cada objeto da resposta deve conter os campos (formato de array):
+Validação do objeto da resposta se o mesmo esta no formato de array, conforme estrutura abaixo:
 
 ```json
 [
@@ -56,6 +60,8 @@ Cada objeto da resposta deve conter os campos (formato de array):
 
 ## Tipos de dados
 
+Valida
+
 | Campo     | Tipo esperado |
 |-----------|---------------|
 | id        |    number     |
@@ -69,7 +75,8 @@ Cada objeto da resposta deve conter os campos (formato de array):
 - title não pode ficar vazio
 - id precisa ser positivo
 - dueDate tem que ser uma data válida
-
+- completed deve ser boolean
+  
 ---
 
 ## Como os testes funcionam
@@ -78,3 +85,5 @@ Cada objeto da resposta deve conter os campos (formato de array):
 - Validação das regras de negócio
 
 Todos os testes foram executados no Postman e passaram com sucesso, garantindo que a API atende às expectativas do negócio.
+
+
