@@ -1,2 +1,69 @@
-# quality-assurance-jr
 Portfólio de QA Jr com testes manuais e de API
+#  quality-assurance-jr
+Portfólio de QA Jr com testes manuais e de API
+
+---
+
+## Objetivo
+Garantir a integridade, estrutura e regras de negócio da API de listagem de tarefas, validando que os dados retornados estejam corretos, consistentes e dentro das expectativas do negócio.
+
+---
+
+## Testes realizados
+- Status da resposta e tempo de retorno
+- Estrutura e tipagem dos campos retornados
+- Regras de negócio e validação de valores
+
+---
+
+## API usada
+[Fake REST API](https://fakerestapi.azurewebsites.net/index.html)
+
+---
+
+## Ferramentas utilizadas
+- Postman – Execução de testes de API
+- JavaScript – Scripts de validação no Postman
+- GitHub – Versionamento e organização do portfólio
+
+---
+
+## Validações Implementadas
+- Validação de Resposta
+  - Status code deve ser 200
+  - Tempo de resposta menor que 500ms
+  - Retorno deve ser um array não vazio
+
+---
+
+## Validação de Estrutura
+Cada objeto da resposta deve conter os campos:
+- `id`
+- `title`
+- `dueDate`
+- `completed`
+
+---
+
+## Tipos de dados
+| Campo      | Tipo esperado |
+|-----------|---------------|
+| `id`      | number        |
+| `title`   | string        |
+| `dueDate` | string        |
+| `completed` | boolean     |
+
+---
+
+## Regras de negócio
+- title não pode ficar vazio
+- `id` precisa ser positivo
+- `dueDate` tem que ser uma data válida
+- Se `completed = true`, `dueDate` ≤ hoje
+
+---
+
+## Como os testes funcionam
+- Primeiro valido o status e tempo
+- Depois valido os campos e tipos
+- Por fim, valido as regras de negócio
