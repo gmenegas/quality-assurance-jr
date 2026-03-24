@@ -30,9 +30,9 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de tar
 
 ## Validações Implementadas
 - Validação de Resposta
-  - Status code deve ser 200
-  - Tempo de resposta menor que 500ms
-  - Retorno deve ser um array não vazio
+- Status code deve ser 200
+- Tempo de resposta menor que 500ms
+- Retorno deve ser um array não vazio
 
 ---
 
