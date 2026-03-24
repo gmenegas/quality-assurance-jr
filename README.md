@@ -37,29 +37,35 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de tar
 ---
 
 ## Validação de Estrutura
-Cada objeto da resposta deve conter os campos:
-- `id`
-- `title`
-- `dueDate`
-- `completed`
 
----
+Cada objeto da resposta deve conter os campos (formato de array):
 
+```json
+[
+  {
+    "id": 0,
+    "title": "string",
+    "dueDate": "2026-03-24T18:25:26.949Z",
+    "completed": true
+  }
+]
+
+```
 ## Tipos de dados
-| Campo      | Tipo esperado |
+
+| Campo     | Tipo esperado |
 |-----------|---------------|
-| `id`      | number        |
-| `title`   | string        |
-| `dueDate` | string        |
-| `completed` | boolean     |
+| id        |   number      |
+| title     |   string      |
+| dueDate   |   string      |
+| completed |   boolean     |
 
 ---
 
 ## Regras de negócio
 - title não pode ficar vazio
-- `id` precisa ser positivo
-- `dueDate` tem que ser uma data válida
-- Se `completed = true`, `dueDate` ≤ hoje
+- id precisa ser positivo
+- dueDate tem que ser uma data válida
 
 ---
 
