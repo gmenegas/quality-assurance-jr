@@ -86,4 +86,4 @@ Valida
 
 Todos os testes foram executados no Postman e passaram com sucesso, garantindo que a API atende às expectativas do negócio.
 
-![Resultado dos testes](resultado.png)
+![Resultado dos testes](result.png)
