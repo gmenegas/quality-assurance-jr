@@ -73,3 +73,5 @@ Cada objeto da resposta deve conter os campos (formato de array):
 - Validação do status code e tempo de resposta
 - Validação da estrutura e tipos dos campos
 - Validação das regras de negócio
+
+Todos os testes foram executados no Postman e passaram com sucesso, garantindo que a API atende às expectativas do negócio.
