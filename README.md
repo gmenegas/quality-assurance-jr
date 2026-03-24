@@ -51,6 +51,7 @@ Cada objeto da resposta deve conter os campos (formato de array):
 ]
 
 ```
+
 ---
 
 ## Tipos de dados
