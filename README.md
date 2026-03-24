@@ -70,6 +70,6 @@ Cada objeto da resposta deve conter os campos (formato de array):
 ---
 
 ## Como os testes funcionam
-- Primeiro valido o status e tempo
-- Depois valido os campos e tipos
-- Por fim, valido as regras de negócio
+- Validação do status code e tempo de resposta
+- Validação da estrutura e tipos dos campos
+- Validação das regras de negócio
