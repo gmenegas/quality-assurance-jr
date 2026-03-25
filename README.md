@@ -3,7 +3,7 @@
 ---
 
 ## Objetivo
-Garantir a integridade, estrutura e regras de negócio da API de listagem de tarefas, validando que os dados retornados estejam corretos, consistentes e dentro das expectativas do negócio.
+Garantir a integridade, estrutura e regras de negócio da API de listagem de atividades, validando que os dados retornados estejam corretos, consistentes e dentro das expectativas do negócio.
 
 ---
 
