@@ -11,6 +11,8 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de ati
 - Postman – Execução de testes de API
 - JavaScript – Scripts de validação no Postman
 - GitHub – Versionamento e organização do portfólio
+- NodeJS
+- Newman
 
 ---  
 ## API usada
@@ -18,11 +20,16 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de ati
 
 ---
 
-## Passo a Passo
+## Passo a Passo para uso no postman
 1. Abrir Postman
 2. Importar ambiente e coleção
 3. Executar todos os requests
 4. Conferir resultados nos testes
+
+## Passo a Passo para uso no newman
+1. Abrir Terminal
+2. Executar o comando: newman run '.\Validação API.postman_collection .json' -e '.\Base URL.postman_environment.json' -r htmlextra --reporter-htmlextra-export report.html
+3. Abrir o arquivo result.html no navegador
 
 ---
 
