@@ -3,19 +3,7 @@
 ---
 
 ## Objetivo
-Garantir a integridade, estrutura e regras de negócio da API de listagem de tarefas, validando que os dados retornados estejam corretos, consistentes e dentro das expectativas do negócio.
-
----
-
-## Testes realizados
-- Status da resposta e tempo de retorno
-- Estrutura e tipagem dos campos retornados
-- Regras de negócio e validação de valores
-
----
-
-## API usada
-[Fake REST API](https://fakerestapi.azurewebsites.net/index.html)
+Garantir a integridade, estrutura e regras de negócio da API de listagem de atividades, validando que os dados retornados estejam corretos e consistentes.
 
 ---
 
@@ -24,11 +12,17 @@ Garantir a integridade, estrutura e regras de negócio da API de listagem de tar
 - JavaScript – Scripts de validação no Postman
 - GitHub – Versionamento e organização do portfólio
 
+---  
+## API usada
+[Fake REST API](https://fakerestapi.azurewebsites.net/index.html)
+
 ---
 
 ## Passo a Passo
-- Clonar o projeto
-- Importar os arquivos "Base URL.postman_environment.json" e "Validação API.postman_collection.json"
+1. Abrir Postman
+2. Importar ambiente e coleção
+3. Executar todos os requests
+4. Conferir resultados nos testes
 
 ---
 
@@ -76,13 +70,13 @@ Valida
 - id precisa ser positivo
 - dueDate tem que ser uma data válida
 - completed deve ser boolean
-  
----
 
-## Como os testes funcionam
+## Testes realizados
 - Validação do status code e tempo de resposta
 - Validação da estrutura e tipos dos campos
 - Validação das regras de negócio
+ 
+---
 
 Todos os testes foram executados no Postman e passaram com sucesso, garantindo que a API atende às expectativas do negócio.
 
